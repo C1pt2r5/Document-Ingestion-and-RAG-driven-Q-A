@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Database connection string
-CONNECTION_STRING = os.environ.get("PG_CONNECTION_STRING", "postgresql://postgres:postgres@localhost:5432/ragapp")
+CONNECTION_STRING = os.environ.get("PG_CONNECTION_STRING", "postgresql://postgres:Mklop9009@@localhost:5432/ragapp")
 
 def init_db():
     """Initialize the database schema"""
